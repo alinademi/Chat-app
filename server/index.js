@@ -18,4 +18,15 @@ app.get("/*", (req, res) => {
   );
 });
 
+app.get("/*", (req, res) => {
+  res.send(
+    `<h1>Page not found</h1>
+    <img src="https://i.pinimg.com/originals/71/07/40/7107408a37d845fb7b008837eb524853.jpg"/>`
+  );
+});
+
 app.listen(5000, console.log("app is listening at: http://localhost:5000"));
+
+
+// test push mike
+// test push mike// test push mike// test push mike// test push mike// test push mike// test push mike
